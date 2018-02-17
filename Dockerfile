@@ -4,4 +4,4 @@ RUN npm install -g sass-lint
 
 WORKDIR /app
 
-CMD ["sass-lint", "-v", "-q"]
+CMD ["sass-lint", "-v", "-q", "--max-warnings", "0"]
